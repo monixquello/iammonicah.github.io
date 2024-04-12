@@ -1,0 +1,575 @@
+/* main div */
+.content{
+    background-color: hsla(127, 8%, 22%, 1);
+    height: 2000px;
+}
+
+
+
+/* navbar */
+
+.main-heading{
+    font-size: 35px;
+    text-decoration: none;
+    color: hsla(127, 8%, 22%, 1);
+    font-family: DM Serif Display Serif;
+    font-weight: bold;
+
+}
+
+.button{
+    background-color: hsla(35, 87%, 49%, 1);
+    margin-left: 950px;
+   
+}
+
+.myMenu{
+    font-size: 20px;
+    align-items: center;
+    color: hsla(127, 8%, 22%, 1);
+    gap: 50px;
+
+}
+
+
+.myMenu:hover{
+    background-color: hsla(35, 87%, 49%, 1);
+    border-radius: 10px;
+}
+
+.mynavlist{
+    margin-left: 50px;
+}
+
+
+
+
+/* main section */
+
+.myImage{
+    width: 500px;
+    height: 600px;
+    margin-right: 70px;
+    border-radius: 50%;
+    margin-top: 80px;
+
+}
+
+.section-div{
+    display: flex;
+    gap: 25px;
+    margin-top: 90px;
+}
+
+.description{
+    font-size: 120px;
+    font-family: DM Serif Display Serif;
+    margin-left: 40px;
+    color: hsla(39, 93%, 95%, 1);
+}
+
+.mini-description{
+    font-size: 25px;
+    margin-left: 20px;
+    padding-top: 3000px;
+    color: hsla(35, 87%, 49%, 1);
+
+
+} 
+
+
+
+/* about section */
+.about-section{
+    display: flex;
+    gap: 40px;
+}
+
+.about{
+    color: hsla(35, 87%, 49%, 1);
+    margin-left: 40px;
+    font-size: 20px;
+
+}
+
+.main-description{
+    font-size: 90px;
+    margin-left: 40px;
+    font-family: DM Serif Display Serif;
+    color: hsla(39, 93%, 95%, 1);
+
+
+}
+
+.about-description{
+    margin-left: 40px;
+    font-size: 30px;
+    font-family: Roboto Flex sans-serif;
+    margin-right: 70px;
+    color: hsla(39, 93%, 95%, 1);
+
+}
+
+.mybutton{
+    margin-left: 35px;
+    width: 300px;
+    height: 70px;
+    background-color: hsla(35, 87%, 49%, 1);
+    margin-top: 2px;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: 15px white;
+    color: hsla(127, 8%, 22%, 1);
+    margin-bottom: 100px;
+}
+
+.section-2{
+    margin-top: 200px;
+}
+
+
+/* services */
+
+.section-3{
+    background-color: #f8f8f8;
+    /* margin-bottom: 80px;*/
+    padding-bottom: 80px;
+
+}
+
+
+
+
+.main-title{
+    font-size: 120px;
+    color: hsla(127, 8%, 22%, 1);
+    font-family: Roboto Flex sans-serif;
+    margin: 6px auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-bottom: 80px;
+}
+
+.service-heading{
+    font-family: DM Serif Display Serif;
+    font-weight: bold;
+    font-family: Roboto Flex sans-serif;
+    font-size: 25px;
+}
+
+
+.service-button{
+    margin-left: 80px;
+    width: 300px;
+    height: 70px;
+    margin-top: 60px;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: hsla(127, 8%, 22%, 1);
+    background-color: white;
+    padding-left: 30px;
+
+}
+
+
+/* footer */
+.myfooter{
+    background-color: hsla(127, 8%, 22%, 1);
+    color: #f8f8f8;
+}
+
+.link-list{
+    text-decoration: none;
+    list-style: none;
+}
+
+.link-list a{
+    text-decoration: none;
+    color: hsla(39, 93%, 95%, 1);
+    font-family: DM Serif Display Serif;
+    font-size: 20px;
+}
+
+.about-footer{
+    padding-top: 70px;
+    padding-left: 200px;
+
+}
+
+
+.footer{
+    display: flex;
+    padding-left: 200px;
+    gap: 200px;
+}
+
+
+.copyright{
+    padding-bottom: 40px;
+    padding-left: 650px;
+
+}
+
+.footer-description{
+    font-family: Roboto Flex sans-serif;
+    font-size: 20px;
+    font-family: DM Serif Display Serif;
+
+}
+
+
+
+
+
+
+
+
+
+/* the about page */
+
+.image{
+
+    width: 500px;
+    height: 600px;
+    border-radius: 50%;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    margin-left: 120px;
+}
+
+
+/* .about-me{
+    padding-left: 160px;
+} */
+
+.about-div{
+    display: flex;
+    gap: 60px;
+
+}
+
+.myabout{
+    font-family: DM Serif Display Serif;
+    font-weight: bold;
+    font-size: 90px;
+    border-color: #e1e2e2;
+    padding-top: 60px;
+    color: hsla(39, 93%, 95%, 1);
+    padding-left: 100px;
+    height: 320px;
+    background-color: hsla(127, 8%, 22%, 1);
+}
+
+.about-title{
+    padding-top: 80px;
+    color: hsla(35, 87%, 49%, 1);
+    font-size: 19px;
+
+    
+}
+
+.mylist{
+    color: hsla(127, 8%, 22%, 1);
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.mylist li{
+    list-style: none;
+    margin-bottom: 15px;
+    font-family: DM Serif Display Serif;
+
+}
+
+.mytitle{
+    font-family: DM Serif Display Serif;
+    font-weight: bold;
+    font-size: 90px;
+    color: hsla(39, 93%, 95%, 1);
+    margin-bottom: 70px;
+
+
+}
+
+.mydescription{
+    font-size: 20px;
+    color: hsla(127, 8%, 22%, 1);
+    font-family: Roboto Flex sans-serif;
+    margin-top: 150px;
+
+}
+
+
+
+.about-button{
+    width: 300px;
+    height: 70px;
+    margin-top: 40px;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: hsla(127, 8%, 22%, 1);
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.about-button:hover{
+    background-color: hsla(35, 87%, 49%, 1);
+    font-weight: bold;
+}
+
+
+
+
+/* contact */
+
+.contact-div{
+    display: flex;
+    padding: 100px;
+    gap: 300px;
+    padding-top: 70px;
+    background-color: #f8f8f8;
+
+
+}
+
+.talk{
+    font-family: DM Serif Display Serif;
+    font-weight: bold;
+    font-size: 90px;
+    border-color: #e1e2e2;
+    padding-top: 60px;
+    color: hsla(39, 93%, 95%, 1);
+    padding-left: 100px;
+    height: 320px;
+    background-color: hsla(127, 8%, 22%, 1);
+
+}
+
+.talk-2{
+    padding-top: 40px;
+    font-family: DM Serif Display Serif;
+
+
+}
+
+
+.email-button{
+    width: 300px;
+    height: 70px;
+    margin-top: 40px;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: hsla(127, 8%, 22%, 1);
+    background-color: white;
+    margin-bottom: 90px;
+}
+
+.email-button:hover{
+    background-color: hsla(35, 87%, 49%, 1);
+    font-weight: bold;
+}
+
+
+.social{
+    font-weight: bold;
+    font-family: DM Serif Display Serif;
+    margin-top: 70px;
+    font-size: 40px;
+
+
+}
+
+.socials{
+    margin-bottom: 60px;
+}
+
+.social-1{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: DM Serif Display Serif;
+
+}
+
+
+.myIcons{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+
+.myIcons a{
+    color: hsla(35, 87%, 49%, 1);
+}
+
+
+/* skills */
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.subject{
+    font-size: 18px;
+    font-weight: thin;
+    color: #808080;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    margin-left: 80px;
+
+}
+
+.progress-bar{
+    position: relative;
+    width: 600px;
+    height: 10px;
+    background-color: #808080;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+
+.progress-bar::after{
+    position: absolute;
+    content: attr(value);
+    top: -35px;
+    right: 0;
+    color: hsla(35, 87%, 49%, 1) ;
+    font-size: 18px;
+}
+
+.progress-line{
+    position: absolute;
+    width: 0%;
+    height: 12px;
+    background-color:hsla(35, 87%, 49%, 1) ;
+    border-radius: 15px;
+    top: -1px;
+    animation: animate 1.5s cubic-bezier(1, 0.2, 0.2, 1) forwards;
+}
+
+@keyframes animate{
+    100%{
+        width: 100%;
+    }
+}
+
+.progress-line::after{
+    content: '';
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsla(35, 87%, 49%, 1);
+}
+
+
+
+/* services */
+
+.myservices{
+    font-family: DM Serif Display Serif;
+    font-weight: bold;
+    font-size: 90px;
+    border-color: #e1e2e2;
+    padding-top: 60px;
+    color: hsla(39, 93%, 95%, 1);
+    padding-left: 100px;
+    height: 320px;
+    background-color: hsla(127, 8%, 22%, 1);
+
+}
+
+.mini-service{
+    font-size: 20px;
+}
+
+.mycards{
+    background-color: #f8f8f8;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.card-div{
+    display: flex;
+    gap: 70px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 200px;
+}
+
+.mycard{
+    margin-left: 100px;
+}
+
+
+.service-title{
+    font-size: 35px;
+    font-family: DM Serif Display Serif;
+    color: hsla(35, 87%, 49%, 1);
+
+}
+
+.service-text{
+    font-size: 30px;
+    font-family: Roboto Flex sans-serif;
+    color: hsla(127, 8%, 22%, 1);
+
+}
+
+
+
+/* form */
+.mycard{
+    margin: 90px auto;
+    border-radius: 10px;
+}
+
+.text-input{
+    width: 522px;
+    height: 150px;
+}
+
+.form-section{
+    background-color: #f8f8f8;
+    height: 100;
+}
+
+.but-email{
+    background-color: hsla(35, 87%, 49%, 1);
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none; 
+  }
+
+
+
+
+
+
+
+
+
+
