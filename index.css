@@ -6,6 +6,8 @@
 
 
 
+
+
 /* navbar */
 
 .main-heading{
@@ -19,7 +21,7 @@
 
 .button{
     background-color: hsla(35, 87%, 49%, 1);
-    margin-left: 950px;
+    margin-left: 850px;
    
 }
 
@@ -47,11 +49,12 @@
 /* main section */
 
 .myImage{
-    width: 500px;
-    height: 600px;
+    width: 550px;
+    height: 500px;
     margin-right: 70px;
     border-radius: 50%;
-    margin-top: 80px;
+    margin-top: 170px;
+    margin-bottom: 50px;
 
 }
 
@@ -64,7 +67,7 @@
 .description{
     font-size: 120px;
     font-family: DM Serif Display Serif;
-    margin-left: 40px;
+    margin-left: 20px;
     color: hsla(39, 93%, 95%, 1);
 }
 
@@ -111,7 +114,7 @@
 }
 
 .mybutton{
-    margin-left: 35px;
+    margin-left: 825px;
     width: 300px;
     height: 70px;
     background-color: hsla(35, 87%, 49%, 1);
@@ -160,7 +163,7 @@
 
 
 .service-button{
-    margin-left: 80px;
+    margin-left: 200px;
     width: 300px;
     height: 70px;
     margin-top: 60px;
@@ -408,6 +411,7 @@
 }
 
 
+
 /* skills */
 
 .row{
@@ -533,7 +537,7 @@
 /* form */
 .mycard{
     margin: 90px auto;
-    border-radius: 10px;
+    border-radius: 40px;
 }
 
 .text-input{
@@ -561,8 +565,121 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    display: none; 
+    /* display: none;  */
   }
+
+
+
+  /* media queries */
+
+/* For screens smaller than 768px */
+@media (max-width: 767px) {
+    .main-heading {
+        font-size: 28px;
+    }
+
+    .service-description{
+        font-size: 60px;
+    }
+
+    .mytitle{
+        font-size: 60px;
+        padding-left: 50px;
+    } 
+    .about-title{
+        font-size: 60px;
+        padding-left: 50px;
+    } 
+
+    
+
+    /* .mybutton {
+        margin-left: 45px; 
+        margin-top: 30px;
+    } */
+
+    .progress-bar{
+        margin-left: 20px;
+        width: 350px;
+    }
+
+    .service-button{
+        margin-left: 50px;
+    }
+
+
+    /* footer */
+    .about-footer{
+        align-items: center;
+        margin-right: 80px;
+    }
+
+    .footer-description{
+        font-size: 18px;
+        margin-right: 180px;
+
+    }
+
+    .myMenu {
+        gap: 20px; 
+    }
+
+    .description {
+        font-size: 60px;
+        margin-left: 30px;
+    }
+
+    .mini-description {
+        font-size: 18px;
+        padding-top: 200px;
+    }
+
+    .myImage {
+        width: 300px;
+        height: 400px;
+        margin-right: 0;
+        margin-top: 30px;
+    }
+
+    .section-div {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .about-section {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .myabout {
+        font-size: 60px;
+        padding-left: 0;
+    }
+
+    /* about page */
+    
+
+    /* Add more styles for other sections as needed */
+}
+
+    /* about page */
+
+
+    /* Add more styles for other sections as needed */
+
+/* For screens between 768px and 992px */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* For screens larger than 992px */
+@media (min-width: 992px) {
+}
 
 
 

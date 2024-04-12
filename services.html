@@ -8,89 +8,91 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- my nav bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class=" main-heading" href="index.html">Monicah</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0   mynavlist">
-            <li class="nav-item">
-              <a class="nav-link active myMenu " aria-current="page" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active myMenu" aria-current="page" href="services.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active myMenu" aria-current="page" href="contact.html">Contact</a>
-            </li>
-            <a href="contact.html">
-              <button type="button" class=" button btn-lg">Let's Connect</button>
-            </a>
-        </div>
+  <!-- my nav bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class=" main-heading" href="index.html">Monicah</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0   mynavlist">
+          <li class="nav-item">
+            <a class="nav-link active myMenu " aria-current="page" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active myMenu" aria-current="page" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active myMenu" aria-current="page" href="contact.html">Contact</a>
+          </li>
+          <a href="contact.html">
+            <button type="button" class=" button btn-lg">Let's Connect</button>
+          </a>
       </div>
-    </nav>
+    </div>
+  </nav>
+
+
 
      <!-- services -->
-
-     <section>
+     <section class="container">
       <div class="myservices">
         <h3 class="mini-service">My Services</h3>
-        <p>My Key Areas of Expertise</p>
+        <p class="service-description text-sm">My Key Areas of Expertise</p>
       </div>
-      <div  class="card-div">
-        <div class="cards">
-          <div class="card mycard" style="width: 35rem;">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card mycard">
             <div class="card-body">
               <h5 class="card-title service-title">Front-end Development and User Interface (UI) Design</h5>
               <p class="card-text service-text">
                 Creating intuitive and visually appealing user interfaces for web and mobile applications. 
                 This includes implementing responsive design principles, optimizing for performance, and ensuring accessibility and usability.
-            </p>
+              </p>
             </div>
           </div>
         </div>
-        <div class="cards">
-          <div class="card mycard" style="width: 35rem;">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card mycard">
             <div class="card-body">
               <h5 class="card-title service-title">Database Design and Optimization</h5>
               <p class="card-text service-text">
                 Designing and optimizing databases to efficiently
                 store and retrieve data for your applications. This involves schema design, indexing,
                 query optimization, and ensuring data integrity and security.
-            </p>
+              </p>
             </div>
           </div>
         </div>
       </div>
-      <div  class="card-div">
-        <div class="cards">
-          <div class="card mycard" style="width: 35rem;">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card mycard">
             <div class="card-body">
               <h5 class="card-title service-title">Back-end Development and Server-side Logic</h5>
               <p class="card-text service-text">
                 Building the server-side components of web applications,
                 including business logic, authentication, authorization, and data processing. This involves using frameworks like Node.js and C#
-            </p>
+              </p>
             </div>
           </div>
         </div>
-        <div class="cards">
-          <div class="card mycard" style="width: 35rem;">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card mycard">
             <div class="card-body">
               <h5 class="card-title service-title">API Development and Integration</h5>
               <p class="card-text service-text">
                 Building robust APIs (Application Programming Interfaces) to enable seamless 
                 communication between different software systems and platforms. This allows for data sharing, integrations with third-party services, and the development of interconnected ecosystems.
-            </p>
+              </p>
             </div>
           </div>
         </div>
       </div>
-     </section>
-      
+    </section>
+    
+    
      <!-- footer -->
   <footer class="myfooter">
     <h3 class="about-footer">About Me</h3>
